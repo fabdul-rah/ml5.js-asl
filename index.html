@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p5.js Sketch Redirect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2d7bb6;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            margin-top: 20px;
+            background-color: #ed225d;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #cc1b4e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>p5.js Sketch</h1>
+        <p>Click the button below to open the p5.js sketch</p>
+        <a href="https://editor.p5js.org/abdulf/sketches/VvgG6-z9U" class="button" id="redirect">Open Sketch</a>
+    </div>
+
+    <script>
+        // Automatically redirect after 2 seconds
+        window.onload = function() {
+            setTimeout(function() {
+                window.location.href = "https://editor.p5js.org/abdulf/sketches/VvgG6-z9U";
+            }, 2000);
+        };
+    </script>
+</body>
+</html>
