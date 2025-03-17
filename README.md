@@ -72,6 +72,7 @@ MIT
 
 ## Credits
 
-Created by [Your Name]
+Created by Feraidon AbdulRahimzai
+
 Based on the original sketch by [abdulf](https://editor.p5js.org/abdulf/sketches/VvgG6-z9U)
 Using [ml5.js](https://ml5js.org/) and [p5.js](https://p5js.org/)
